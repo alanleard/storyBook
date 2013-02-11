@@ -1,9 +1,18 @@
 {
-	"global": {}, 
-	"env:development": {}, 
-	"env:test": {}, 
-	"env:production": {}, 
-	"os:ios": {}, 
-	"os:android": {}, 
-	"dependencies": {}
+    "global": {
+        "backgroundColor": "#ffffff",
+        "selectedBackgroundColor": "#a0a0a0",
+        "black": "#000000",
+        "sliderColor":"#C0C0C0",
+        "font1":{"fontSize":32},
+        "shadowColor":"#ffffff"
+    },
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:ios": {},
+    "os:android": {},
+    "dependencies": {
+        "page": "1.0"
+    }
 }

@@ -1,8 +1,69 @@
-".container": {
-	backgroundColor:"white"
+".container":{
+    backgroundColor:Alloy.CFG.backgroundColor
 },
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
-} 
+// 
+// ".sentence":{
+    // color:Alloy.CFG.black
+// },
+//    
+// "#page":{
+//    
+// },
+// 
+// "#firstSentence":{
+    // top:"5%",
+    // left:"10%",
+    // height:"size"
+// },
+// 
+// "#secondSentence":{
+    // bottom:"5%",
+    // right:"10%",
+    // height:"size",
+    // left:"55%"
+// },
+// 
+// "#mainImage":{
+    // top:"10%",
+    // left:"10%",
+    // bottom:"20%",
+    // right:"20%"
+// },
+// 
+// "#slideImage":{
+    // top:0,
+    // left:0,
+    // right:0,
+    // bottom:0,
+    // backgroundColor:"red",
+// },
+// 
+// "#slideWindow":{
+    // bottom:"10%",
+    // right:"10%",
+    // top:"55%",
+    // left:"55%",
+    // borderWidth:1,
+    // borderColor:Alloy.CFG.selectedBackgroundColor,
+    // preventDefaultImage:true,
+// },
+// 
+// "#slider":{
+    // top:0,
+    // left:0,
+    // right:0,
+    // bottom:0,
+    // backgroundColor:Alloy.CFG.selectedBackgroundColor,
+    // borderWidth:2,
+    // borderColor:Alloy.CFG.black
+// },
+// 
+// "#slideHandle":{
+    // top:0,
+    // right:0,
+    // bottom:0,
+    // width:20,
+    // backgroundColor:Alloy.CFG.selectedBackgroundColor,
+    // borderWidth:1,
+    // borderColor:Alloy.CFG.black
+// }

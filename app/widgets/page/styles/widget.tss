@@ -1,0 +1,88 @@
+".container":{
+    backgroundColor:Alloy.CFG.backgroundColor
+},
+   
+"#page":{
+   
+},
+
+"#nextPage":{
+    top:5,
+    right:5,
+    color:Alloy.CFG.black
+},
+
+".sentence":{
+    color:Alloy.CFG.black,
+    font:Alloy.CFG.font1,
+    minimumFontSize:8,
+    shadowOffset:{x:1, y:1},
+    shadowColor:Alloy.CFG.shadowColor
+},
+
+"#firstSentence":{
+    top:"5%",
+    left:"5%",
+    height:"size",
+    textAlign:"left"
+},
+
+"#secondSentence":{
+    bottom:"5%",
+    right:"5%",
+    height:"size",
+    textAlign:"right"
+},
+
+".image":{
+    preventDefaultImage:true
+},
+
+"#mainImageContainer":{
+    top:"10%",
+    left:"10%",
+    right:"20%",
+    bottom:"15%"
+},
+
+"#mainImage":{
+    top:0,
+    left:0,
+    width:"fill",
+    height:"size"
+},
+
+"#slideImage":{
+    top:0,
+    right:0,
+    left:40
+},
+
+"#slideWindow":{
+    height:"30%",
+    width:"30%",
+    bottom:"10%",
+    right:"10%",
+    borderWidth:1,
+    borderColor:Alloy.CFG.selectedBackgroundColor
+},
+
+"#slider":{
+    top:0,
+    left:0,
+    right:0,
+    bottom:0,
+    backgroundColor:Alloy.CFG.selectedBackgroundColor,
+    borderWidth:2,
+    borderColor:Alloy.CFG.black
+},
+
+"#slideHandle":{
+    top:0,
+    right:0,
+    bottom:0,
+    width:40,
+    backgroundColor:Alloy.CFG.selectedBackgroundColor,
+    borderWidth:1,
+    borderColor:Alloy.CFG.black
+}

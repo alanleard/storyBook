@@ -1,5 +1,26 @@
 <Alloy>
+	
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		
+		
+		<!-- <ImageView id="mainImage"/>
+			
+		<Label id="firstSentence" class="sentence"/>
+			
+		<View id="slideWindow">
+				
+			<ImageView id="slideImage"/>
+			
+			<View id="slider">
+				
+				<View id="slideHandle" onTouchmove="slideHandleMove" onTouchend="slideHandleEnd"/>
+			
+			</View>
+		
+		</View>
+		
+		<Label id="secondSentence" class="sentence"/> -->
+	
 	</Window>
+
 </Alloy>

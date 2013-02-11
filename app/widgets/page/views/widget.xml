@@ -1,0 +1,29 @@
+<Alloy>
+	
+	<View id="page" class="container">
+		
+		<View id="mainImageContainer">
+			<ImageView id="mainImage" class="image"/>
+		</View>
+		
+			
+		<Label id="firstSentence" class="sentence"/>
+			
+		<View id="slideWindow">
+				
+			<ImageView id="slideImage" class="image"/>
+			
+			<View id="slider">
+				
+				<View id="slideHandle" onTouchmove="slideHandleMove" onTouchend="slideHandleEnd"/>
+			
+			</View>
+		
+		</View>
+		
+		<Label id="secondSentence" class="sentence"/>
+	
+		<Label id="nextPage">Next Page</Label>
+	</View>
+
+</Alloy>
